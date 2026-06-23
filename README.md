@@ -1,8 +1,8 @@
 # Data Engineering Pipeline
 
-**Streams, batch, and storage — production data pipelines, encoded.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**Data engineers shipping production pipelines: ingest, transform, serve & trust the data.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
 
-Build and run production data pipelines. Kafka streaming, Spark batch jobs, ClickHouse analytics, data quality checks, time-series modeling, ML feature engineering, and query optimization.
+Stand up data pipelines you can run in production and trust. Reach for this when you're moving data end to end — streaming ingestion off Kafka, batch transforms in Spark, an analytics store in ClickHouse — and need quality checks and query tuning so the numbers downstream are correct and fast. Built for the engineer who owns the pipeline, not the analyst querying its output.
 
 ⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 

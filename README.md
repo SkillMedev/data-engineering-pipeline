@@ -9,7 +9,7 @@ Stand up data pipelines you can run in production and trust. Reach for this when
 ## Install
 
 - **From the catalog:** [skillme.dev/pack/data-engineering-pipeline](https://skillme.dev/pack/data-engineering-pipeline) — install the whole pack into Claude in one step.
-- **With the skills CLI:** `npx skills add aouellets/data-engineering-pipeline`
+- **With the skills CLI:** `npx skills add SkillMedev/data-engineering-pipeline`
 - **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
 
 ## Skills in this pack

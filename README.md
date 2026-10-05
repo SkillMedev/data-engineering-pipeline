@@ -1,16 +1,17 @@
 # Data Engineering Pipeline
 
-**Data engineers shipping production pipelines: ingest, transform, serve & trust the data.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**Data engineers shipping production pipelines: ingest, transform, serve & trust the data.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-data-engineering-pipeline).
 
 Stand up data pipelines you can run in production and trust. Reach for this when you're moving data end to end - streaming ingestion off Kafka, batch transforms in Spark, an analytics store in ClickHouse - and need quality checks and query tuning so the numbers downstream are correct and fast. Built for the engineer who owns the pipeline, not the analyst querying its output.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/data-engineering-pipeline](https://skillme.dev/pack/data-engineering-pipeline) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/data-engineering-pipeline?utm_source=github&utm_medium=readme&utm_campaign=pack-data-engineering-pipeline) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add kafka-pipelines spark-jobs clickhouse-analytics data-quality time-series ml-feature-engineering sql-query-optimizer mongodb-expert --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/data-engineering-pipeline`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -26,4 +27,4 @@ Stand up data pipelines you can run in production and trust. Reach for this when
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-data-engineering-pipeline).
